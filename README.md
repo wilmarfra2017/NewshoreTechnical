@@ -7,14 +7,14 @@ Microservicio que se encarga de calcular las rutas de viaje de acuerdo a la docu
 Se implementó microservicio con API expuesta para ver la ruta calculada de acuerdo a los parametros Origen y Destino enviados al microservicio.
 
 # Instalación
-1. Crear desde **SQL Server Management Studio** Base de Datos: **Newshore.Technical.DataBase**
-2. En la base de datos anterior ejecutar el Script **Tablas.sql** ubicado en: **NewshoreTechnical/Base de datos/Tablas.sql**
-3. Ajustar cadena de conexión a Base de datos en archivo **appsettings.json**  ubicado en la capa Api del microservicio: **Newshore.Technical.Api**
+1. Clonar repositorio
+2. Crear desde **SQL Server Management Studio** Base de Datos: **Newshore.Technical.DataBase**
+3. En la base de datos anterior ejecutar el Script **Tablas.sql** ubicado en: **NewshoreTechnical/Base de datos/Tablas.sql**
+4. Ajustar cadena de conexión a Base de datos en archivo **appsettings.json**  ubicado en la capa Api del microservicio: **Newshore.Technical.Api**
 
 # Implementación realizada
-1. Clonar repositorio
-2. Base de datos de SQL Server
-3. Microservicio en .NET Core 6 con capa de servicio (API), capa de aplicacion (CQRS), capa de dominio (entities, interfaces y services), 
+1. Base de datos de SQL Server
+2. Microservicio en .NET Core 6 con capa de servicio (API), capa de aplicacion (CQRS), capa de dominio (entities, interfaces y services), 
 capa de infraestructura (finders y repositories (persistencia a la base de datos SQL)), capa transversal (Dtos y Utils)
 
 # Estructura del Microservicio:
