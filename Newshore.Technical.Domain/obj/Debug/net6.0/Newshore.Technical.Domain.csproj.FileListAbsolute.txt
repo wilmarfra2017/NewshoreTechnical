@@ -1,0 +1,15 @@
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\obj\Debug\net6.0\Newshore.Technical.Domain.csproj.AssemblyReference.cache
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\obj\Debug\net6.0\Newshore.Technical.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\obj\Debug\net6.0\Newshore.Technical.Domain.AssemblyInfoInputs.cache
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\obj\Debug\net6.0\Newshore.Technical.Domain.AssemblyInfo.cs
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\obj\Debug\net6.0\Newshore.Technical.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\bin\Debug\net6.0\Newshore.Technical.Domain.deps.json
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\bin\Debug\net6.0\Newshore.Technical.Domain.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\bin\Debug\net6.0\Newshore.Technical.Domain.pdb
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\bin\Debug\net6.0\Newshore.Technical.Transverse.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\bin\Debug\net6.0\Newshore.Technical.Transverse.pdb
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\obj\Debug\net6.0\Newshore.Technical.Domain.csproj.CopyComplete
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\obj\Debug\net6.0\Newshore.Technical.Domain.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\obj\Debug\net6.0\refint\Newshore.Technical.Domain.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\obj\Debug\net6.0\Newshore.Technical.Domain.pdb
+D:\Projects\NewshoreTechnical\Newshore.Technical.Domain\obj\Debug\net6.0\ref\Newshore.Technical.Domain.dll

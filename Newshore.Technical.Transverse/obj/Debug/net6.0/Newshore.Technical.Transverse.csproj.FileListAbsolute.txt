@@ -1,0 +1,12 @@
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\bin\Debug\net6.0\Newshore.Technical.Transverse.deps.json
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\bin\Debug\net6.0\Newshore.Technical.Transverse.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\bin\Debug\net6.0\Newshore.Technical.Transverse.pdb
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\obj\Debug\net6.0\Newshore.Technical.Transverse.csproj.AssemblyReference.cache
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\obj\Debug\net6.0\Newshore.Technical.Transverse.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\obj\Debug\net6.0\Newshore.Technical.Transverse.AssemblyInfoInputs.cache
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\obj\Debug\net6.0\Newshore.Technical.Transverse.AssemblyInfo.cs
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\obj\Debug\net6.0\Newshore.Technical.Transverse.csproj.CoreCompileInputs.cache
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\obj\Debug\net6.0\Newshore.Technical.Transverse.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\obj\Debug\net6.0\refint\Newshore.Technical.Transverse.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\obj\Debug\net6.0\Newshore.Technical.Transverse.pdb
+D:\Projects\NewshoreTechnical\Newshore.Technical.Transverse\obj\Debug\net6.0\ref\Newshore.Technical.Transverse.dll

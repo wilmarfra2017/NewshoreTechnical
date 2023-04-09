@@ -1,0 +1,17 @@
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\obj\Debug\net6.0\Newshore.Technical.Application.csproj.AssemblyReference.cache
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\obj\Debug\net6.0\Newshore.Technical.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\obj\Debug\net6.0\Newshore.Technical.Application.AssemblyInfoInputs.cache
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\obj\Debug\net6.0\Newshore.Technical.Application.AssemblyInfo.cs
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\obj\Debug\net6.0\Newshore.Technical.Application.csproj.CoreCompileInputs.cache
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\bin\Debug\net6.0\Newshore.Technical.Application.deps.json
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\bin\Debug\net6.0\Newshore.Technical.Application.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\bin\Debug\net6.0\Newshore.Technical.Application.pdb
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\bin\Debug\net6.0\Newshore.Technical.Domain.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\bin\Debug\net6.0\Newshore.Technical.Transverse.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\bin\Debug\net6.0\Newshore.Technical.Domain.pdb
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\bin\Debug\net6.0\Newshore.Technical.Transverse.pdb
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\obj\Debug\net6.0\Newshore.Technical.Application.csproj.CopyComplete
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\obj\Debug\net6.0\Newshore.Technical.Application.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\obj\Debug\net6.0\refint\Newshore.Technical.Application.dll
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\obj\Debug\net6.0\Newshore.Technical.Application.pdb
+D:\Projects\NewshoreTechnical\Newshore.Technical.Application\obj\Debug\net6.0\ref\Newshore.Technical.Application.dll

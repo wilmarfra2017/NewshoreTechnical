@@ -1,0 +1,580 @@
+2023-04-08 13:35:45.194 -05:00 [INF] NewshoreTechnicalController - ProcessNewshoreTechnical - Success - origin: MZL destination: BCN
+2023-04-08 13:35:45.350 -05:00 [INF] NewshoreTechnicalCommandHandler - Handle - origin: MZL destination: BCN
+2023-04-08 13:35:45.353 -05:00 [INF] JourneyDomain - FindItinerariesFromOriginToDestination - Success - origin: MZL destination: BCN
+2023-04-08 13:35:45.355 -05:00 [INF] JourneyDomain - CheckJourneyExists, Success: origin: MZL destination: BCN
+2023-04-08 13:35:45.841 -05:00 [INF] GetJourneyListByPlacesService -- Start --> Origin: MZL, Destination: BCN
+2023-04-08 13:35:45.857 -05:00 [INF] Get journeys by places -- Start --> Origin: MZL, Destination: BCN
+2023-04-08 13:35:51.025 -05:00 [INF] Get journeys by places -- Success --> Origin: MZL, Destination: BCN
+2023-04-08 13:35:51.028 -05:00 [INF] GetJourneyListByPlacesService -- Success --> Origin: MZL, Destination: BCN -- Journey founds
+2023-04-08 13:35:51.045 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 7
+2023-04-08 13:35:51.050 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 7
+2023-04-08 13:35:51.277 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 13:35:51.280 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 7 -- Flight founds
+2023-04-08 13:35:51.286 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 13:35:51.307 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 13:35:51.421 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 13:35:51.454 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 13:35:51.457 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 13:35:51.457 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 13:35:51.467 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 13:35:51.467 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 13:35:51.469 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.474 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.474 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 8
+2023-04-08 13:35:51.475 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 8
+2023-04-08 13:35:51.484 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 13:35:51.490 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 8 -- Flight founds
+2023-04-08 13:35:51.502 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 13:35:51.502 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 13:35:51.507 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 13:35:51.508 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 13:35:51.508 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 13:35:51.508 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 13:35:51.512 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 13:35:51.512 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 13:35:51.512 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 13:35:51.512 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 13:35:51.516 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 13:35:51.516 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 13:35:51.517 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.517 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.518 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 9
+2023-04-08 13:35:51.519 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 9
+2023-04-08 13:35:51.523 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 13:35:51.523 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 9 -- Flight founds
+2023-04-08 13:35:51.523 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 13:35:51.524 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 13:35:51.527 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 13:35:51.528 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 13:35:51.528 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 13:35:51.528 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 13:35:51.531 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 13:35:51.532 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 13:35:51.532 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 13:35:51.532 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 13:35:51.536 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 13:35:51.537 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 13:35:51.537 -05:00 [INF] GetTransportByIdService -- Start --> Id: 14
+2023-04-08 13:35:51.537 -05:00 [INF] Get transport by id -- Start --> Transport id: 14
+2023-04-08 13:35:51.541 -05:00 [INF] Get transport by id -- Success --> Transport id: 14. Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"Transport"}
+2023-04-08 13:35:51.542 -05:00 [INF] GetTransportByIdService -- Success --> Id: 14 -- Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"TransportResponse"}
+2023-04-08 13:35:51.542 -05:00 [INF] GetTransportByIdService -- Start --> Id: 15
+2023-04-08 13:35:51.542 -05:00 [INF] Get transport by id -- Start --> Transport id: 15
+2023-04-08 13:35:51.546 -05:00 [INF] Get transport by id -- Success --> Transport id: 15. Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"Transport"}
+2023-04-08 13:35:51.546 -05:00 [INF] GetTransportByIdService -- Success --> Id: 15 -- Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"TransportResponse"}
+2023-04-08 13:35:51.547 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.547 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.547 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 10
+2023-04-08 13:35:51.548 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 10
+2023-04-08 13:35:51.551 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 13:35:51.551 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 10 -- Flight founds
+2023-04-08 13:35:51.552 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 13:35:51.552 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 13:35:51.554 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 13:35:51.555 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 13:35:51.556 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 13:35:51.556 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 13:35:51.558 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 13:35:51.559 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 13:35:51.559 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 13:35:51.559 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 13:35:51.561 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 13:35:51.562 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 13:35:51.562 -05:00 [INF] GetTransportByIdService -- Start --> Id: 16
+2023-04-08 13:35:51.563 -05:00 [INF] Get transport by id -- Start --> Transport id: 16
+2023-04-08 13:35:51.565 -05:00 [INF] Get transport by id -- Success --> Transport id: 16. Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"Transport"}
+2023-04-08 13:35:51.565 -05:00 [INF] GetTransportByIdService -- Success --> Id: 16 -- Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"TransportResponse"}
+2023-04-08 13:35:51.566 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.566 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.566 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 11
+2023-04-08 13:35:51.566 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 11
+2023-04-08 13:35:51.569 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 13:35:51.570 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 11 -- Flight founds
+2023-04-08 13:35:51.570 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 13:35:51.570 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 13:35:51.573 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 13:35:51.574 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 13:35:51.574 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 13:35:51.574 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 13:35:51.576 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 13:35:51.577 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 13:35:51.578 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 13:35:51.578 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 13:35:51.580 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 13:35:51.581 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 13:35:51.581 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 13:35:51.581 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 13:35:51.583 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 13:35:51.584 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 13:35:51.585 -05:00 [INF] GetTransportByIdService -- Start --> Id: 14
+2023-04-08 13:35:51.585 -05:00 [INF] Get transport by id -- Start --> Transport id: 14
+2023-04-08 13:35:51.586 -05:00 [INF] Get transport by id -- Success --> Transport id: 14. Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"Transport"}
+2023-04-08 13:35:51.587 -05:00 [INF] GetTransportByIdService -- Success --> Id: 14 -- Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"TransportResponse"}
+2023-04-08 13:35:51.588 -05:00 [INF] GetTransportByIdService -- Start --> Id: 15
+2023-04-08 13:35:51.588 -05:00 [INF] Get transport by id -- Start --> Transport id: 15
+2023-04-08 13:35:51.589 -05:00 [INF] Get transport by id -- Success --> Transport id: 15. Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"Transport"}
+2023-04-08 13:35:51.590 -05:00 [INF] GetTransportByIdService -- Success --> Id: 15 -- Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"TransportResponse"}
+2023-04-08 13:35:51.590 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.590 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.590 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 12
+2023-04-08 13:35:51.591 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 12
+2023-04-08 13:35:51.593 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 13:35:51.594 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 12 -- Flight founds
+2023-04-08 13:35:51.594 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 13:35:51.594 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 13:35:51.597 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 13:35:51.597 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 13:35:51.598 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 13:35:51.598 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 13:35:51.600 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 13:35:51.601 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 13:35:51.602 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 13:35:51.602 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 13:35:51.604 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 13:35:51.605 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 13:35:51.605 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 13:35:51.606 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 13:35:51.608 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 13:35:51.608 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 13:35:51.609 -05:00 [INF] GetTransportByIdService -- Start --> Id: 16
+2023-04-08 13:35:51.609 -05:00 [INF] Get transport by id -- Start --> Transport id: 16
+2023-04-08 13:35:51.611 -05:00 [INF] Get transport by id -- Success --> Transport id: 16. Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"Transport"}
+2023-04-08 13:35:51.612 -05:00 [INF] GetTransportByIdService -- Success --> Id: 16 -- Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"TransportResponse"}
+2023-04-08 13:35:51.612 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.612 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 13:35:51.613 -05:00 [INF] JourneyDomain - CheckJourneyExists - Success
+2023-04-08 14:08:36.768 -05:00 [INF] NewshoreTechnicalController - ProcessNewshoreTechnical - Success - origin: MZL destination: BCN
+2023-04-08 14:08:36.947 -05:00 [INF] NewshoreTechnicalCommandHandler - Handle - origin: MZL destination: BCN
+2023-04-08 14:08:36.949 -05:00 [INF] JourneyDomain - FindItinerariesFromOriginToDestination - Success - origin: MZL destination: BCN
+2023-04-08 14:08:36.950 -05:00 [INF] JourneyDomain - CheckJourneyExists, Success: origin: MZL destination: BCN
+2023-04-08 14:08:37.176 -05:00 [INF] GetJourneyListByPlacesService -- Start --> Origin: MZL, Destination: BCN
+2023-04-08 14:08:37.187 -05:00 [INF] Get journeys by places -- Start --> Origin: MZL, Destination: BCN
+2023-04-08 14:08:39.637 -05:00 [INF] Get journeys by places -- Success --> Origin: MZL, Destination: BCN
+2023-04-08 14:08:39.638 -05:00 [INF] GetJourneyListByPlacesService -- Success --> Origin: MZL, Destination: BCN -- Journey founds
+2023-04-08 14:08:39.647 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 7
+2023-04-08 14:08:39.649 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 7
+2023-04-08 14:08:39.767 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 14:08:39.768 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 7 -- Flight founds
+2023-04-08 14:08:39.770 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 14:08:39.778 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 14:08:39.822 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 14:08:39.837 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 14:08:39.838 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 14:08:39.838 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 14:08:39.842 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 14:08:39.843 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 14:08:39.843 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.845 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.845 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 8
+2023-04-08 14:08:39.845 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 8
+2023-04-08 14:08:39.848 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 14:08:39.848 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 8 -- Flight founds
+2023-04-08 14:08:39.849 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 14:08:39.849 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 14:08:39.850 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 14:08:39.850 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 14:08:39.850 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 14:08:39.851 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 14:08:39.852 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 14:08:39.852 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 14:08:39.852 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 14:08:39.852 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 14:08:39.853 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 14:08:39.853 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 14:08:39.853 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.854 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.854 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 9
+2023-04-08 14:08:39.854 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 9
+2023-04-08 14:08:39.855 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 14:08:39.856 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 9 -- Flight founds
+2023-04-08 14:08:39.856 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 14:08:39.856 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 14:08:39.857 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 14:08:39.857 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 14:08:39.857 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 14:08:39.857 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 14:08:39.858 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 14:08:39.859 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 14:08:39.859 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 14:08:39.859 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 14:08:39.860 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 14:08:39.860 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 14:08:39.861 -05:00 [INF] GetTransportByIdService -- Start --> Id: 14
+2023-04-08 14:08:39.861 -05:00 [INF] Get transport by id -- Start --> Transport id: 14
+2023-04-08 14:08:39.862 -05:00 [INF] Get transport by id -- Success --> Transport id: 14. Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"Transport"}
+2023-04-08 14:08:39.862 -05:00 [INF] GetTransportByIdService -- Success --> Id: 14 -- Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"TransportResponse"}
+2023-04-08 14:08:39.862 -05:00 [INF] GetTransportByIdService -- Start --> Id: 15
+2023-04-08 14:08:39.862 -05:00 [INF] Get transport by id -- Start --> Transport id: 15
+2023-04-08 14:08:39.864 -05:00 [INF] Get transport by id -- Success --> Transport id: 15. Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"Transport"}
+2023-04-08 14:08:39.864 -05:00 [INF] GetTransportByIdService -- Success --> Id: 15 -- Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"TransportResponse"}
+2023-04-08 14:08:39.864 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.865 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.865 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 10
+2023-04-08 14:08:39.865 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 10
+2023-04-08 14:08:39.866 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 14:08:39.867 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 10 -- Flight founds
+2023-04-08 14:08:39.867 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 14:08:39.867 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 14:08:39.868 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 14:08:39.869 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 14:08:39.869 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 14:08:39.869 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 14:08:39.870 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 14:08:39.871 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 14:08:39.871 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 14:08:39.871 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 14:08:39.873 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 14:08:39.873 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 14:08:39.873 -05:00 [INF] GetTransportByIdService -- Start --> Id: 16
+2023-04-08 14:08:39.873 -05:00 [INF] Get transport by id -- Start --> Transport id: 16
+2023-04-08 14:08:39.875 -05:00 [INF] Get transport by id -- Success --> Transport id: 16. Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"Transport"}
+2023-04-08 14:08:39.875 -05:00 [INF] GetTransportByIdService -- Success --> Id: 16 -- Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"TransportResponse"}
+2023-04-08 14:08:39.875 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.875 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.875 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 11
+2023-04-08 14:08:39.875 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 11
+2023-04-08 14:08:39.877 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 14:08:39.877 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 11 -- Flight founds
+2023-04-08 14:08:39.877 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 14:08:39.877 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 14:08:39.879 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 14:08:39.879 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 14:08:39.879 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 14:08:39.879 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 14:08:39.882 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 14:08:39.882 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 14:08:39.882 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 14:08:39.882 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 14:08:39.884 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 14:08:39.885 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 14:08:39.885 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 14:08:39.885 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 14:08:39.887 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 14:08:39.887 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 14:08:39.887 -05:00 [INF] GetTransportByIdService -- Start --> Id: 14
+2023-04-08 14:08:39.887 -05:00 [INF] Get transport by id -- Start --> Transport id: 14
+2023-04-08 14:08:39.889 -05:00 [INF] Get transport by id -- Success --> Transport id: 14. Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"Transport"}
+2023-04-08 14:08:39.890 -05:00 [INF] GetTransportByIdService -- Success --> Id: 14 -- Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"TransportResponse"}
+2023-04-08 14:08:39.890 -05:00 [INF] GetTransportByIdService -- Start --> Id: 15
+2023-04-08 14:08:39.890 -05:00 [INF] Get transport by id -- Start --> Transport id: 15
+2023-04-08 14:08:39.892 -05:00 [INF] Get transport by id -- Success --> Transport id: 15. Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"Transport"}
+2023-04-08 14:08:39.893 -05:00 [INF] GetTransportByIdService -- Success --> Id: 15 -- Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"TransportResponse"}
+2023-04-08 14:08:39.893 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.893 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.893 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 12
+2023-04-08 14:08:39.893 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 12
+2023-04-08 14:08:39.895 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 14:08:39.895 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 12 -- Flight founds
+2023-04-08 14:08:39.895 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 14:08:39.895 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 14:08:39.897 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 14:08:39.898 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 14:08:39.898 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 14:08:39.898 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 14:08:39.899 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 14:08:39.900 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 14:08:39.900 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 14:08:39.900 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 14:08:39.902 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 14:08:39.902 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 14:08:39.903 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 14:08:39.903 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 14:08:39.904 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 14:08:39.905 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 14:08:39.905 -05:00 [INF] GetTransportByIdService -- Start --> Id: 16
+2023-04-08 14:08:39.905 -05:00 [INF] Get transport by id -- Start --> Transport id: 16
+2023-04-08 14:08:39.906 -05:00 [INF] Get transport by id -- Success --> Transport id: 16. Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"Transport"}
+2023-04-08 14:08:39.906 -05:00 [INF] GetTransportByIdService -- Success --> Id: 16 -- Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"TransportResponse"}
+2023-04-08 14:08:39.906 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.906 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 14:08:39.907 -05:00 [INF] JourneyDomain - CheckJourneyExists - Success
+2023-04-08 15:16:55.961 -05:00 [INF] NewshoreTechnicalController - ProcessNewshoreTechnical - Success - origin: MZL destination: BCN
+2023-04-08 15:16:56.121 -05:00 [INF] NewshoreTechnicalCommandHandler - Handle - origin: MZL destination: BCN
+2023-04-08 15:16:56.122 -05:00 [INF] JourneyDomain - FindItinerariesFromOriginToDestination - Success - origin: MZL destination: BCN
+2023-04-08 15:16:56.124 -05:00 [INF] JourneyDomain - CheckJourneyExists, Success: origin: MZL destination: BCN
+2023-04-08 15:16:56.799 -05:00 [INF] GetJourneyListByPlacesService -- Start --> Origin: MZL, Destination: BCN
+2023-04-08 15:16:56.825 -05:00 [INF] Get journeys by places -- Start --> Origin: MZL, Destination: BCN
+2023-04-08 15:17:01.087 -05:00 [INF] Get journeys by places -- Success --> Origin: MZL, Destination: BCN
+2023-04-08 15:17:01.088 -05:00 [INF] GetJourneyListByPlacesService -- Success --> Origin: MZL, Destination: BCN -- Journey founds
+2023-04-08 15:17:01.098 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 7
+2023-04-08 15:17:01.101 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 7
+2023-04-08 15:17:01.250 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:17:01.252 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 7 -- Flight founds
+2023-04-08 15:17:01.255 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 15:17:01.266 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 15:17:01.320 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 15:17:01.339 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 15:17:01.340 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:17:01.340 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:17:01.347 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:17:01.347 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:17:01.348 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.350 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.351 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 8
+2023-04-08 15:17:01.351 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 8
+2023-04-08 15:17:01.355 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:17:01.355 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 8 -- Flight founds
+2023-04-08 15:17:01.356 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 15:17:01.356 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 15:17:01.358 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 15:17:01.358 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 15:17:01.359 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 15:17:01.359 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 15:17:01.360 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 15:17:01.361 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 15:17:01.361 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:17:01.361 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:17:01.363 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:17:01.364 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:17:01.364 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.364 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.365 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 9
+2023-04-08 15:17:01.365 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 9
+2023-04-08 15:17:01.367 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:17:01.367 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 9 -- Flight founds
+2023-04-08 15:17:01.367 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 15:17:01.368 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 15:17:01.369 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 15:17:01.369 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 15:17:01.370 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:17:01.370 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:17:01.372 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:17:01.372 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:17:01.372 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 15:17:01.372 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 15:17:01.374 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 15:17:01.374 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 15:17:01.374 -05:00 [INF] GetTransportByIdService -- Start --> Id: 14
+2023-04-08 15:17:01.374 -05:00 [INF] Get transport by id -- Start --> Transport id: 14
+2023-04-08 15:17:01.377 -05:00 [INF] Get transport by id -- Success --> Transport id: 14. Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"Transport"}
+2023-04-08 15:17:01.377 -05:00 [INF] GetTransportByIdService -- Success --> Id: 14 -- Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"TransportResponse"}
+2023-04-08 15:17:01.377 -05:00 [INF] GetTransportByIdService -- Start --> Id: 15
+2023-04-08 15:17:01.377 -05:00 [INF] Get transport by id -- Start --> Transport id: 15
+2023-04-08 15:17:01.379 -05:00 [INF] Get transport by id -- Success --> Transport id: 15. Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"Transport"}
+2023-04-08 15:17:01.379 -05:00 [INF] GetTransportByIdService -- Success --> Id: 15 -- Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"TransportResponse"}
+2023-04-08 15:17:01.379 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.380 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.380 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 10
+2023-04-08 15:17:01.380 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 10
+2023-04-08 15:17:01.382 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:17:01.382 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 10 -- Flight founds
+2023-04-08 15:17:01.382 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 15:17:01.382 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 15:17:01.384 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 15:17:01.384 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 15:17:01.384 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:17:01.384 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:17:01.386 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:17:01.386 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:17:01.387 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 15:17:01.387 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 15:17:01.388 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 15:17:01.389 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 15:17:01.389 -05:00 [INF] GetTransportByIdService -- Start --> Id: 16
+2023-04-08 15:17:01.389 -05:00 [INF] Get transport by id -- Start --> Transport id: 16
+2023-04-08 15:17:01.391 -05:00 [INF] Get transport by id -- Success --> Transport id: 16. Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"Transport"}
+2023-04-08 15:17:01.391 -05:00 [INF] GetTransportByIdService -- Success --> Id: 16 -- Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"TransportResponse"}
+2023-04-08 15:17:01.391 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.391 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.391 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 11
+2023-04-08 15:17:01.391 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 11
+2023-04-08 15:17:01.393 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:17:01.393 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 11 -- Flight founds
+2023-04-08 15:17:01.394 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 15:17:01.394 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 15:17:01.395 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 15:17:01.396 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 15:17:01.396 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 15:17:01.396 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 15:17:01.397 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 15:17:01.398 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 15:17:01.398 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:17:01.398 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:17:01.399 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:17:01.400 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:17:01.400 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 15:17:01.400 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 15:17:01.402 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 15:17:01.402 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 15:17:01.402 -05:00 [INF] GetTransportByIdService -- Start --> Id: 14
+2023-04-08 15:17:01.402 -05:00 [INF] Get transport by id -- Start --> Transport id: 14
+2023-04-08 15:17:01.404 -05:00 [INF] Get transport by id -- Success --> Transport id: 14. Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"Transport"}
+2023-04-08 15:17:01.404 -05:00 [INF] GetTransportByIdService -- Success --> Id: 14 -- Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"TransportResponse"}
+2023-04-08 15:17:01.404 -05:00 [INF] GetTransportByIdService -- Start --> Id: 15
+2023-04-08 15:17:01.404 -05:00 [INF] Get transport by id -- Start --> Transport id: 15
+2023-04-08 15:17:01.406 -05:00 [INF] Get transport by id -- Success --> Transport id: 15. Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"Transport"}
+2023-04-08 15:17:01.406 -05:00 [INF] GetTransportByIdService -- Success --> Id: 15 -- Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"TransportResponse"}
+2023-04-08 15:17:01.407 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.407 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.407 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 12
+2023-04-08 15:17:01.407 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 12
+2023-04-08 15:17:01.409 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:17:01.409 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 12 -- Flight founds
+2023-04-08 15:17:01.410 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 15:17:01.410 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 15:17:01.411 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 15:17:01.412 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 15:17:01.412 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 15:17:01.412 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 15:17:01.414 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 15:17:01.414 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 15:17:01.414 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:17:01.414 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:17:01.416 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:17:01.416 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:17:01.416 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 15:17:01.416 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 15:17:01.418 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 15:17:01.419 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 15:17:01.419 -05:00 [INF] GetTransportByIdService -- Start --> Id: 16
+2023-04-08 15:17:01.419 -05:00 [INF] Get transport by id -- Start --> Transport id: 16
+2023-04-08 15:17:01.421 -05:00 [INF] Get transport by id -- Success --> Transport id: 16. Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"Transport"}
+2023-04-08 15:17:01.421 -05:00 [INF] GetTransportByIdService -- Success --> Id: 16 -- Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"TransportResponse"}
+2023-04-08 15:17:01.421 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.421 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:17:01.422 -05:00 [INF] JourneyDomain - CheckJourneyExists - Success
+2023-04-08 15:23:09.413 -05:00 [INF] NewshoreTechnicalController - ProcessNewshoreTechnical - Success - origin: MZL destination: BCN
+2023-04-08 15:23:09.502 -05:00 [INF] NewshoreTechnicalCommandHandler - Handle - origin: MZL destination: BCN
+2023-04-08 15:23:09.503 -05:00 [INF] JourneyDomain - FindItinerariesFromOriginToDestination - Success - origin: MZL destination: BCN
+2023-04-08 15:23:09.505 -05:00 [INF] JourneyDomain - CheckJourneyExists, Success: origin: MZL destination: BCN
+2023-04-08 15:23:09.806 -05:00 [INF] GetJourneyListByPlacesService -- Start --> Origin: MZL, Destination: BCN
+2023-04-08 15:23:09.819 -05:00 [INF] Get journeys by places -- Start --> Origin: MZL, Destination: BCN
+2023-04-08 15:23:13.057 -05:00 [INF] Get journeys by places -- Success --> Origin: MZL, Destination: BCN
+2023-04-08 15:23:13.058 -05:00 [INF] GetJourneyListByPlacesService -- Success --> Origin: MZL, Destination: BCN -- Journey founds
+2023-04-08 15:23:13.067 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 7
+2023-04-08 15:23:13.069 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 7
+2023-04-08 15:23:13.196 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:23:13.197 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 7 -- Flight founds
+2023-04-08 15:23:13.202 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 15:23:13.219 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 15:23:13.301 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 15:23:13.320 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 15:23:13.321 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:23:13.321 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:23:13.328 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:23:13.328 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:23:13.329 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.331 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.331 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 8
+2023-04-08 15:23:13.331 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 8
+2023-04-08 15:23:13.335 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:23:13.336 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 8 -- Flight founds
+2023-04-08 15:23:13.336 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 15:23:13.337 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 15:23:13.338 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 15:23:13.339 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 15:23:13.339 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 15:23:13.339 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 15:23:13.349 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 15:23:13.350 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 15:23:13.350 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:23:13.350 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:23:13.352 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:23:13.352 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:23:13.352 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.352 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.353 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 9
+2023-04-08 15:23:13.353 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 9
+2023-04-08 15:23:13.356 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:23:13.356 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 9 -- Flight founds
+2023-04-08 15:23:13.356 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 15:23:13.357 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 15:23:13.358 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 15:23:13.359 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 15:23:13.359 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:23:13.359 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:23:13.361 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:23:13.362 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:23:13.362 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 15:23:13.362 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 15:23:13.364 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 15:23:13.365 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 15:23:13.365 -05:00 [INF] GetTransportByIdService -- Start --> Id: 14
+2023-04-08 15:23:13.365 -05:00 [INF] Get transport by id -- Start --> Transport id: 14
+2023-04-08 15:23:13.367 -05:00 [INF] Get transport by id -- Success --> Transport id: 14. Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"Transport"}
+2023-04-08 15:23:13.368 -05:00 [INF] GetTransportByIdService -- Success --> Id: 14 -- Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"TransportResponse"}
+2023-04-08 15:23:13.368 -05:00 [INF] GetTransportByIdService -- Start --> Id: 15
+2023-04-08 15:23:13.368 -05:00 [INF] Get transport by id -- Start --> Transport id: 15
+2023-04-08 15:23:13.370 -05:00 [INF] Get transport by id -- Success --> Transport id: 15. Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"Transport"}
+2023-04-08 15:23:13.371 -05:00 [INF] GetTransportByIdService -- Success --> Id: 15 -- Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"TransportResponse"}
+2023-04-08 15:23:13.371 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.371 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.371 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 10
+2023-04-08 15:23:13.371 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 10
+2023-04-08 15:23:13.375 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:23:13.375 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 10 -- Flight founds
+2023-04-08 15:23:13.376 -05:00 [INF] GetTransportByIdService -- Start --> Id: 9
+2023-04-08 15:23:13.376 -05:00 [INF] Get transport by id -- Start --> Transport id: 9
+2023-04-08 15:23:13.378 -05:00 [INF] Get transport by id -- Success --> Transport id: 9. Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"Transport"}
+2023-04-08 15:23:13.378 -05:00 [INF] GetTransportByIdService -- Success --> Id: 9 -- Transport found: {"Id":9,"FlightCarrier":"CO","FlightNumber":"8001","$type":"TransportResponse"}
+2023-04-08 15:23:13.378 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:23:13.379 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:23:13.382 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:23:13.383 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:23:13.387 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 15:23:13.387 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 15:23:13.391 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 15:23:13.391 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 15:23:13.392 -05:00 [INF] GetTransportByIdService -- Start --> Id: 16
+2023-04-08 15:23:13.392 -05:00 [INF] Get transport by id -- Start --> Transport id: 16
+2023-04-08 15:23:13.394 -05:00 [INF] Get transport by id -- Success --> Transport id: 16. Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"Transport"}
+2023-04-08 15:23:13.395 -05:00 [INF] GetTransportByIdService -- Success --> Id: 16 -- Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"TransportResponse"}
+2023-04-08 15:23:13.395 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.395 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.395 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 11
+2023-04-08 15:23:13.395 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 11
+2023-04-08 15:23:13.399 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:23:13.399 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 11 -- Flight founds
+2023-04-08 15:23:13.399 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 15:23:13.400 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 15:23:13.402 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 15:23:13.402 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 15:23:13.402 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 15:23:13.402 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 15:23:13.404 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 15:23:13.404 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 15:23:13.405 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:23:13.405 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:23:13.407 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:23:13.407 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:23:13.408 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 15:23:13.408 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 15:23:13.410 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 15:23:13.411 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 15:23:13.411 -05:00 [INF] GetTransportByIdService -- Start --> Id: 14
+2023-04-08 15:23:13.411 -05:00 [INF] Get transport by id -- Start --> Transport id: 14
+2023-04-08 15:23:13.413 -05:00 [INF] Get transport by id -- Success --> Transport id: 14. Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"Transport"}
+2023-04-08 15:23:13.413 -05:00 [INF] GetTransportByIdService -- Success --> Id: 14 -- Transport found: {"Id":14,"FlightCarrier":"CO","FlightNumber":"8009","$type":"TransportResponse"}
+2023-04-08 15:23:13.413 -05:00 [INF] GetTransportByIdService -- Start --> Id: 15
+2023-04-08 15:23:13.413 -05:00 [INF] Get transport by id -- Start --> Transport id: 15
+2023-04-08 15:23:13.416 -05:00 [INF] Get transport by id -- Success --> Transport id: 15. Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"Transport"}
+2023-04-08 15:23:13.416 -05:00 [INF] GetTransportByIdService -- Success --> Id: 15 -- Transport found: {"Id":15,"FlightCarrier":"CO","FlightNumber":"9002","$type":"TransportResponse"}
+2023-04-08 15:23:13.416 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.416 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.416 -05:00 [INF] GetFlightListByJourneyService -- Start --> journey id: 12
+2023-04-08 15:23:13.416 -05:00 [INF] Get flights by journey id -- Start --> Journey id: 12
+2023-04-08 15:23:13.418 -05:00 [INF] Get flights by journey id -- Success
+2023-04-08 15:23:13.419 -05:00 [INF] GetFlightListByJourneyService -- Success --> journey id: 12 -- Flight founds
+2023-04-08 15:23:13.419 -05:00 [INF] GetTransportByIdService -- Start --> Id: 11
+2023-04-08 15:23:13.419 -05:00 [INF] Get transport by id -- Start --> Transport id: 11
+2023-04-08 15:23:13.420 -05:00 [INF] Get transport by id -- Success --> Transport id: 11. Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"Transport"}
+2023-04-08 15:23:13.421 -05:00 [INF] GetTransportByIdService -- Success --> Id: 11 -- Transport found: {"Id":11,"FlightCarrier":"CO","FlightNumber":"8002","$type":"TransportResponse"}
+2023-04-08 15:23:13.421 -05:00 [INF] GetTransportByIdService -- Start --> Id: 12
+2023-04-08 15:23:13.421 -05:00 [INF] Get transport by id -- Start --> Transport id: 12
+2023-04-08 15:23:13.429 -05:00 [INF] Get transport by id -- Success --> Transport id: 12. Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"Transport"}
+2023-04-08 15:23:13.429 -05:00 [INF] GetTransportByIdService -- Success --> Id: 12 -- Transport found: {"Id":12,"FlightCarrier":"CO","FlightNumber":"9009","$type":"TransportResponse"}
+2023-04-08 15:23:13.430 -05:00 [INF] GetTransportByIdService -- Start --> Id: 10
+2023-04-08 15:23:13.430 -05:00 [INF] Get transport by id -- Start --> Transport id: 10
+2023-04-08 15:23:13.432 -05:00 [INF] Get transport by id -- Success --> Transport id: 10. Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"Transport"}
+2023-04-08 15:23:13.432 -05:00 [INF] GetTransportByIdService -- Success --> Id: 10 -- Transport found: {"Id":10,"FlightCarrier":"CO","FlightNumber":"8004","$type":"TransportResponse"}
+2023-04-08 15:23:13.432 -05:00 [INF] GetTransportByIdService -- Start --> Id: 13
+2023-04-08 15:23:13.432 -05:00 [INF] Get transport by id -- Start --> Transport id: 13
+2023-04-08 15:23:13.434 -05:00 [INF] Get transport by id -- Success --> Transport id: 13. Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"Transport"}
+2023-04-08 15:23:13.435 -05:00 [INF] GetTransportByIdService -- Success --> Id: 13 -- Transport found: {"Id":13,"FlightCarrier":"ES","FlightNumber":"9004","$type":"TransportResponse"}
+2023-04-08 15:23:13.435 -05:00 [INF] GetTransportByIdService -- Start --> Id: 16
+2023-04-08 15:23:13.435 -05:00 [INF] Get transport by id -- Start --> Transport id: 16
+2023-04-08 15:23:13.441 -05:00 [INF] Get transport by id -- Success --> Transport id: 16. Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"Transport"}
+2023-04-08 15:23:13.441 -05:00 [INF] GetTransportByIdService -- Success --> Id: 16 -- Transport found: {"Id":16,"FlightCarrier":"CO","FlightNumber":"9001","$type":"TransportResponse"}
+2023-04-08 15:23:13.441 -05:00 [INF] JourneyDomain - GetJourneyDto - Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.442 -05:00 [INF] JourneyDomain - GetJourneyDto, Success - Journey info: Newshore.Technical.Domain.ResponseModels.JourneyResponse
+2023-04-08 15:23:13.442 -05:00 [INF] JourneyDomain - CheckJourneyExists - Success
