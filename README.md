@@ -1,4 +1,4 @@
-# NewshoreTechnical - Prueba Técnica
+# Prueba Técnica Newshore
 Wilmar Francisco Martinez
 
 # Objetivo
