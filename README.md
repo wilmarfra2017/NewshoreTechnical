@@ -38,3 +38,9 @@ que se desee probar en conjunto el back con el front
 **Nota:** 
 En archivo **appsettings.json** se configura la opción de **rutas multiples y de retorno**
 y tambien se configura la cantidad maxima de viajes a utilizar en cada ruta (Usé el doble de este valor en las rutas de ida y vuelta)
+
+En la seccion **iisExpress** del archivo **launchSettings.json** ubicado en la carpeta Properties de **Newshore.Technical.Api** 
+se encuentra el puerto que se debe configurar para que un cliente (front) logre conectar y hacer peticiones al microservicio NewshoreTechnical
+
+Ejemplo: http://localhost:25355
+
